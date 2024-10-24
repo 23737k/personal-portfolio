@@ -1,3 +1,11 @@
+.navbar{
+  background-color: #FFFFFF;
+  box-shadow: 2px 5px 10px #C9CACC;
+  position: sticky;
+  top: 0;
+}
+
+
 #navbarNavAltMarkup{
   justify-content: end;
 }
@@ -9,3 +17,6 @@
 .navbar-brand{
   font-size: 1em;
 }
+
+
+

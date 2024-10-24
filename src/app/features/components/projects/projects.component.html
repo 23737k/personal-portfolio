@@ -1,1 +1,12 @@
-<p>projects works!</p>
+<div class="container">
+  <h2>Projects</h2>
+  <div class="project-card-container">
+    <div *ngFor="let project of projects" class="project-card">
+      <h3>{{ project.title }}</h3>
+      <p>{{project.subtitle}}</p>
+      <p> {{project.description}}</p>
+      <a href="{{project.repoUrl}}" target="_blank"><button class="btn btn-light"><i class="fa-brands fa-github"></i><span class="ms-3 fw-semibold">View on Github</span></button></a>
+    </div>
+  </div>
+
+</div>
