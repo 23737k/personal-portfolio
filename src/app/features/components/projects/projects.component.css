@@ -13,14 +13,24 @@ h2{
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
 .project-card{
+  box-sizing: border-box;
   background-color: #FFFFFF;
   padding: 1rem;
   border-radius: 5px;
   margin: 20px 20px;
-  max-width: 40%;
+  width: 40%;
+  align-content: space-between;
   transition: transform .3s;
+  text-align: center;
+  @media(max-width: 768px){
+    width: 100%;
+    margin: 20px auto;
+  }
+
 }
+
 .project-card:hover{
   cursor: pointer;
   transform: scale(1.1);
@@ -28,4 +38,12 @@ h2{
 
 .project-card h3{
   color: #2563EB;
+  margin-top: 0.5rem;
+}
+
+.project-card img{
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  margin: auto;
 }
