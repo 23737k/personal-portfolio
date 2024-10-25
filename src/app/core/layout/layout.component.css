@@ -1,5 +1,6 @@
 .content{
   background-color: #F1F2F5;
+  overflow: hidden;
 }
 
 .projects{

@@ -1,0 +1,38 @@
+.about-me-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+  margin: 40px auto;
+  padding: 1rem;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  width: 80%;
+  @media(max-width: 768px){
+    width: 90%;
+  }
+}
+
+img{
+  width:30%;
+  height: 30%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 50%;
+  @media(max-width: 768px){
+   width: 70%;
+  }
+}
+
+.info{
+  width:60%;
+  overflow-wrap: break-word;
+  @media(max-width: 768px){
+    width: 90%;
+  }
+}
+p{
+  font-size: 1.5rem;
+}
+
+
