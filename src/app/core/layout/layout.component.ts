@@ -3,6 +3,8 @@ import {HeaderComponent} from "../../features/components/header/header.component
 import {FooterComponent} from "../../features/components/footer/footer.component";
 import {AboutMeComponent} from "../../features/components/about-me/about-me.component";
 import {ProjectsComponent} from "../../features/components/projects/projects.component";
+import {SkillsComponent} from "../../features/components/skills/skills.component";
+import {IntroComponent} from "../../features/components/intro/intro.component";
 
 @Component({
   selector: 'app-layout',
@@ -11,7 +13,9 @@ import {ProjectsComponent} from "../../features/components/projects/projects.com
     HeaderComponent,
     FooterComponent,
     AboutMeComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    SkillsComponent,
+    IntroComponent
   ],
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.css'

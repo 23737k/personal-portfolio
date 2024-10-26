@@ -3,11 +3,13 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 1rem 2rem;
-  margin: 40px auto;
+  margin: 60px auto;
   padding: 1rem;
   background-color: #FFFFFF;
-  border-radius: 5px;
+  border-radius: 10px;
   width: 80%;
+  max-width: 1200px;
+  box-shadow: 5px 5px 20px #C9CACC;
   @media(max-width: 768px){
     width: 90%;
   }
@@ -19,6 +21,7 @@ img{
   aspect-ratio: 1/1;
   object-fit: cover;
   border-radius: 50%;
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.3);
   @media(max-width: 768px){
    width: 70%;
   }
