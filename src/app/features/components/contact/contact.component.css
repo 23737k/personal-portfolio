@@ -1,0 +1,35 @@
+.container{
+  margin: 80px auto;
+}
+.inputs-container{
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1rem;
+  justify-content: center;
+  padding: 2rem 0;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px 7px #C9CACC;
+  background-color: #FFFFFF;
+  max-width: 800px;
+}
+h2{
+  text-align: center;
+  font-weight: bold;
+}
+
+#name-input, #email-input{
+  width: 40%;
+}
+#textarea{
+  width: calc(40% *2 + 1rem);
+}
+textarea{
+  height: 100px;
+}
+button{
+  width: 30%;
+  max-width: 400px;
+}
+
+

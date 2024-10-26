@@ -5,7 +5,7 @@ import {AboutMeComponent} from "../../features/components/about-me/about-me.comp
 import {ProjectsComponent} from "../../features/components/projects/projects.component";
 import {SkillsComponent} from "../../features/components/skills/skills.component";
 import {IntroComponent} from "../../features/components/intro/intro.component";
-
+import {ContactComponent} from "../../features/components/contact/contact.component";
 @Component({
   selector: 'app-layout',
   standalone: true,
@@ -15,7 +15,8 @@ import {IntroComponent} from "../../features/components/intro/intro.component";
     AboutMeComponent,
     ProjectsComponent,
     SkillsComponent,
-    IntroComponent
+    IntroComponent,
+    ContactComponent
   ],
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.css'
