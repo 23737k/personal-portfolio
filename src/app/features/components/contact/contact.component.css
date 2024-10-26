@@ -27,9 +27,8 @@ h2{
 textarea{
   height: 100px;
 }
-button{
+form button{
   width: 30%;
   max-width: 400px;
 }
-
 
