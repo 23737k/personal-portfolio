@@ -19,7 +19,7 @@
         <label for="message">Message *</label>
         <div *ngIf="contactForm.get('message')?.errors?.['required'] && contactForm.get('message')?.touched" class="text-danger">A message is required</div>
       </div>
-      <button class="btn btn-primary fw-bold" type="submit" (submit)="sendForm()">SEND</button>
+      <button class="btn btn-primary fw-bold" type="submit" (submit)="sendForm()" [disabled]="!contactForm.valid">SEND</button>
     </div>
   </form>
   <div #alertPlaceholder></div>
