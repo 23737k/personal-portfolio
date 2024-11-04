@@ -30,8 +30,12 @@ export class ContactComponent implements OnInit{
       }
 
       this._http.post('https://formspree.io/f/meoqeqbv',body).subscribe({
-        next: ()=> this.createAlert()
+        next: ()=> {
+          this.createAlert();
+          this.contactForm.reset();
+        }
       });
+
     }
   }
 
