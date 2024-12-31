@@ -43,7 +43,7 @@ export class ProjectsComponent {
       description: 'Built a Python-based API using Flask, integrating with external weather services. Implemented caching for improved performance and rate limiting for API security.',
       photoUrl: 'https://res.cloudinary.com/dpvs5m9an/image/upload/v1732203604/f5225d56-b46a-4421-a739-69d0a68bf21b.png',
       repoUrl: 'https://github.com/23737k/Rentify',
-      webUrl: "https://rentify-desarrollo.onrender.com/"
+      webUrl: "https://rentify-gkoc.onrender.com/"
     }
     // {
     //   title: 'My Carbon FootPrint',
