@@ -27,7 +27,7 @@ export class ProjectsComponent {
       description: 'Built a Python-based API using Flask, integrating with external weather services. Implemented caching for improved performance and rate limiting for API security.',
       photoUrl: 'https://res.cloudinary.com/dpvs5m9an/image/upload/f_auto/q_auto:low/q_70/the-walking-dogs_kkdpq6.jpg',
       repoUrl: 'https://github.com/23737k/the-walking-dogs-app',
-      webUrl: "https://thewalkingdogsapp.onrender.com/swagger-ui/index.html"
+      webUrl: "https://thewalkingdogsapp-0q4t.onrender.com/swagger-ui/index.html"
     },
     {
       title: 'HealthTech',
